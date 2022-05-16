@@ -1,6 +1,9 @@
+import java.util.Arrays;
+
 public class BinarySearch {
     public static void main(String[] args) {
         int[] array = {2, 4, 6, 8, 10, 14, 29, 56};
+        Arrays.sort(array);
         System.out.println(searchIndex(array, 4, 0, array.length - 1));
     }
 

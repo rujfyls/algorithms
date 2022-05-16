@@ -1,5 +1,6 @@
 import java.util.Arrays;
 
+//O(n*n) т.к. 2 цикла, и один в другом
 public class BubbleSort {
     public static void main(String[] args) {
         int[] array = {9, 6, 8, 5, 7, 4, 2, 3, 1, 13, 15, 12, 54};
@@ -32,8 +33,5 @@ public class BubbleSort {
             }
         }
         System.out.println(Arrays.toString(array2));
-
-
-
     }
 }
